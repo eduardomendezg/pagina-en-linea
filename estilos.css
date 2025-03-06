@@ -8,7 +8,7 @@ body {
 header{
     background-image: url(banner.jpg);
     height: 150px;
-    position: relative;
+    /*position: relative;*/
     display: flex;
     justify-content: center;
     align-items: center;
@@ -33,15 +33,43 @@ header h1{
     font-family:  "Signika", serif;
     position: absolute;
 }
+#premios{
+    color: #1c21c6;
+    font-family:  "Signika", serif;
+    align-items: center;
+    align-content: center;
+   
+}
 footer {
-    position: fixed;
+   /* position: fixed;*/
     padding: 10px;
     bottom: 0;
     width: 100%;
     text-align: center;
 }
+img{
+    max-width: 100%;
+            border-radius: 5px;
+}
 footer h3{
     color: #1c21c6;
     font-family: "Signika", serif;
+    text-align: center;
+    margin-top: 200px;
+}
+.container {
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: wrap;
+  }
+.item{
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    width: 300px;
     text-align: center;
 }
